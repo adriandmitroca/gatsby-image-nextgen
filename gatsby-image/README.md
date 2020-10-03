@@ -163,7 +163,7 @@ You can use the compat layer to make the transformation easier.
 ```jsx
 import React from 'react';
 import { graphql } from 'gatsby';
-import { GatsbyImage } from 'gatsby-image/compat';
+import { GatsbyImage } from '@wardpeet/gatsby-image-nextgen/compat';
 
 export default ({ data }) => (
   <div>
